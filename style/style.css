@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3e2e2;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+}
+
+html, body {
+    height: 100%;
+}
+
+p{
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    justify-content: flex-start; 
+}
+
+.logo {
+    margin: 10px;
+    height: 200px;
+}
+
+a, .dropbtn {
+    display: block;
+    color: black;
+    text-decoration: none;
+
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover {
+    color: #555; 
+}
+
+.centertd {
+    text-align: center;
+}
+
+td{
+    padding: 3px;
+}
+
+.logbutton {
+    background-color: #b10e0e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.logbutton:hover {
+    background-color: #571010;
+}
+
+#imglogo{
+    max-width: 20rem;
+    height: auto;
+    position: relative;
+    display: flex;
+    margin: 2rem auto; 
+}
+
+img{
+    max-width: 30rem;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gugulmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; 
+}
+.gugulmap h2 {
+    color: #333;
+    font-family: 'Arial', sans-serif; 
+    margin-bottom: 10px;
+}
+
+.gugulmap p {
+    color: #555;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.gugulmap iframe {
+    border: 5px solid #000000;
+    border-radius: 10px;
+    margin-top: 15px;
+}
