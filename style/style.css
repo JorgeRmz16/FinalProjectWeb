@@ -121,3 +121,14 @@ form {
     border-radius: 10px;
     margin-top: 15px;
 }
+
+.footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#about{
+    color: white;
+}
