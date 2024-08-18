@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('../pages/navbar.html')
+    const page = window.location.pathname.split("/").pop();
+
+    const navbarPath = page === "index.html" || page === "" ? "./pages/navbar.html" : "../pages/navbar.html";
+
+    fetch(navbarPath)
         .then(response => response.text())
         .then(data => {
             document.getElementById('navbar').innerHTML = data;
